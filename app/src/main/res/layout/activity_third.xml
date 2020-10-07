@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+<TextView
+    android:id="@+id/registration"
+    android:layout_width="440dp"
+    android:layout_height="130dp"
+    android:text="KiSii PARKING"
+    android:textSize="29dp"
+    android:textStyle="bold"
+    android:paddingTop="5dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="73dp"
+    ></TextView>
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registration"
+        android:layout_marginTop="-48dp"
+        android:hint="Full Names"
+        android:textSize="29dp"></EditText>
+
+    <EditText
+        android:id="@+id/Eaddress"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:layout_marginTop="1dp"
+        android:hint="Email address"
+        android:textSize="29dp"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Eaddress"
+        android:layout_marginTop="31dp"
+        android:hint="Password"
+        android:textSize="29dp"></EditText>
+
+    <EditText
+        android:id="@+id/confirmP"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="18dp"
+        android:hint="Confirm Password"
+        android:textSize="29dp"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_below="@id/confirmP"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/rounded"
+        android:hint="Submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold"></Button>
+
+</RelativeLayout>
